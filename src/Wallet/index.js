@@ -8,7 +8,7 @@ const CCVaultError = require("../errors/WalletInterfaceError/WalletProcessError/
 const WalletError = require("../errors/WalletInterfaceError/WalletProcessError/WalletError/WalletError");
 const WalletProcessError = require("../errors/WalletInterfaceError/WalletProcessError/WalletProcessError");
 
-private_walletInterface_hasBlockFrost = false;
+let private_walletInterface_hasBlockFrost = false;
 
 class Wallet
 {
